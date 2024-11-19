@@ -1,2 +1,4 @@
 terraform/.terraform
 terraform/.terraform.lock.hcl
+Airflow/__pycache__
+Airflow/includes/__pycache__
