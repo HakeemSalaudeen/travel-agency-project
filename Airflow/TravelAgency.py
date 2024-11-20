@@ -1,7 +1,6 @@
 ## Step 1 : Import module/operator
 from airflow import DAG 
 from airflow.utils.dates import datetime
-from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 from Airflow.includes.upload_to_s3 import upload_to_s3
 from Airflow.includes.transformed_data_to_S3 import push_transform_data_to_S3
@@ -28,7 +27,7 @@ with DAG(
     python_callable=push_transform_data_to_S3
     )
     
-    logging.info(f" data pushed to S3 bucket")
+    logging.info(" data pushed to S3 bucket")
 
 
 S3Put >> S3Push 

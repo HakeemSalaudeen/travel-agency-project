@@ -10,6 +10,6 @@ def read_data_from_s3():
     )  
     return df 
 
-logging.info(f" data is opened from S3")
+logging.info(" data is opened from S3")
 
 

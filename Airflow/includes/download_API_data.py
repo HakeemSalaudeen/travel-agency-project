@@ -12,4 +12,4 @@ def download_data():
     print("Data downloaded successfully.")
     return df
 
-logging.info(f"API data downloaded successfully")
+logging.info("API data downloaded successfully")

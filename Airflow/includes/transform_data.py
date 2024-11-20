@@ -1,6 +1,4 @@
 from Airflow.includes.read_parquet_from_s3 import read_data_from_s3
-import awswrangler as wr
-import pandas as pd
 import numpy as np
 import logging
 
@@ -72,4 +70,4 @@ def transform_country_data():
     
     return transformed_df
 
-logging.info(f" data is transformed")
+logging.info(" data is transformed")
