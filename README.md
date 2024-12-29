@@ -20,6 +20,9 @@ The data processing workflow is orchestrated using Apache Airflow, a powerful to
 
 ## Cloud Infrastructure
 
+![Data achitecture](https://github.com/user-attachments/assets/ecdef2a4-68d8-4764-895f-aa4eadadaed1)
+
+
 The project utilizes several cloud infrastructures to ensure scalability, security, and efficiency:
 
 - **AWS IAM**: Used for managing access keys and permissions, ensuring secure access to AWS resources.
